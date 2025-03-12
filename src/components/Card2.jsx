@@ -22,7 +22,7 @@ const Card2 = ({
                 setSelectedIndex((prevIndex) =>
                     prevIndex === null || prevIndex >= headings.length - 1 ? 0 : prevIndex + 1
                 );
-            }, 3000);
+            }, 6000);
             return () => clearInterval(interval);
         }
     }, [headings.length]);
