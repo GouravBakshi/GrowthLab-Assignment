@@ -45,13 +45,13 @@ const Card2 = ({
                             className="border border-[#EBECF0] p-4 rounded-[24px] cursor-pointer text-left"
                         >
                             <div className="flex items-center justify-between">
-                                <h2 className="text-[22px] text-[#5F6585]">{heading}</h2>
+                                <h2 className={`text-[22px] text-[#333132] ${selectedIndex === index ? 'font-bold' : 'font-normal'}`}>{heading}</h2>
                                 <span className="text-2xl">
                                     {selectedIndex === index ? <AiOutlineMinus /> : <AiOutlinePlus />}
                                 </span>
                             </div>
                             {selectedIndex === index && (
-                                <p className="mt-4 text-gray-600">{descriptions[index]}</p>
+                                <p className="mt-4 text-[#3B3E27]">{descriptions[index]}</p>
                             )}
                         </div>
                     ))}
