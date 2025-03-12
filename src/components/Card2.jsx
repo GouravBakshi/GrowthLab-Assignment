@@ -102,8 +102,8 @@ const Card2 = ({
                             className="p-4 mt-1 rounded-2xl"
                             style={{ backgroundColor: colors[index] || 'inherit' }}
                         >
-                            <h2 className="text-[22px] text-[#5F6585]">{heading}</h2>
-                            <p className="mt-4">{descriptions[index]}</p>
+                            <h2 className="text-[22px] text-[#333132] font-bold">{heading}</h2>
+                            <p className="mt-4 text-[#3B3E27] text-[15px]">{descriptions[index]}</p>
                         </div>
                     </div>
                 ))}
