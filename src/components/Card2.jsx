@@ -84,7 +84,7 @@ const Card2 = ({
                 {headings.map((heading, index) => (
                     <div
                         key={index}
-                        className="flex flex-col gap-2 rounded-2xl overflow-hidden border border-[#EBECF0]"
+                        className="flex flex-col gap-2 rounded-2xl overflow-hidden border-b border-[#EBECF0]"
                     >
                         <div
                             className="rounded-2xl"
@@ -108,6 +108,7 @@ const Card2 = ({
                     </div>
                 ))}
             </section>
+
         </>
     );
 };
