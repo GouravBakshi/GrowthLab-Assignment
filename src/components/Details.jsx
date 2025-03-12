@@ -1,10 +1,10 @@
 import React from "react";
 import Card2 from "./Card2";
 import Card1 from "./Card1";
-import visual1 from "../assets/Media+/visual1.png"
-import visual3 from "../assets/Media+/visual3.png"
-import visual from "../assets/Media+/visual.png"
-import visual2 from "../assets/Media+/visual2.png"
+import visual1 from "../assets/MediaPlus/visual1.png"
+import visual3 from "../assets/MediaPlus/visual3.png"
+import visual from "../assets/MediaPlus/visual.png"
+import visual2 from "../assets/MediaPlus/visual2.png"
 const Details = () => {
     
     const headings = ["Curate your video media collection with an AI powered library","Build, Brand & Publish your Media+", "Gate your media, capture leads & connect your CRM - it’s easy","Track your views - with detailed analytics"]
@@ -53,7 +53,7 @@ const Details = () => {
             </div>
 
             <div>
-                
+
             </div>
 
         </section>
