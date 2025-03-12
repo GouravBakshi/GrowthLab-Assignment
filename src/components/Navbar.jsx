@@ -17,44 +17,44 @@ const Navbar = () => {
                         }  transition-all duration-100 sm:h-fit sm:bg-none bg-transparent sm:w-fit w-full sm:flex-row flex-col px-4 sm:px-0`}
                 >
                     <li className="hover:text-btnColor font-[500]  transition-all duration-150">
-                        <a href="/products">
+                        <a href="/">
                             <span className="flex justify-center items-center gap-1.5">Products <IoIosArrowDown /> </span>
                         </a>
                     </li>
 
 
                     <li className="hover:text-btnColor font-[500]  transition-all duration-150">
-                        <a href="/customers">
+                        <a href="/">
                         <span className="flex justify-center items-center gap-1.5">Customers <IoIosArrowDown /> </span>
                         </a>
                     </li>
 
                     <li className="hover:text-btnColor font-[500]  transition-all duration-150">
-                        <a href="/resources">
+                        <a href="/">
                         <span className="flex justify-center items-center gap-1.5">Resources <IoIosArrowDown /> </span>
                         </a>
                     </li>
 
                     <li className="hover:text-btnColor font-[500]  transition-all duration-150">
-                        <a href="/about">
+                        <a href="/">
                         <span className="flex justify-center items-center gap-1.5">About us <IoIosArrowDown /> </span>
                         </a>
                     </li>
 
                     <li className="hover:text-btnColor font-[500] text-center  transition-all duration-150">
-                        <a href="/about">
+                        <a href="/">
                         Plans
                         </a>
                     </li>
 
                     <li className="hover:text-btnColor bg-[#E4875D1A] text-[#E4875D] px-4 py-2 rounded-lg font-[500]  transition-all duration-150 text-center">
-                        <a href="/login">
+                        <a href="/">
                             Login
                         </a>
                     </li>
 
                     <li className="hover:text-btnColor bg-[#E4875D] text-white py-2 px-4 rounded-lg font-[500]  transition-all duration-150 text-center">
-                        <a href="/requestDemo">
+                        <a href="/">
                             Request Demo
                         </a>
                     </li>
