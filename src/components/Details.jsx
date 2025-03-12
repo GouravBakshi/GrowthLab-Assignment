@@ -1,9 +1,9 @@
 import React from "react";
 import Card2 from "./Card2";
 import Card1 from "./Card1";
-import visual1 from "../assets/MediaPlus/visual1.png"
-import visual3 from "../assets/MediaPlus/visual3.png"
-import visual from "../assets/MediaPlus/visual.png"
+import visual1 from "../assets/MediaPlus/Visual1.png"
+import visual3 from "../assets/MediaPlus/Visual3.png"
+import visual from "../assets/MediaPlus/Visual.png"
 import visual2 from "../assets/MediaPlus/visual2.png"
 const Details = () => {
     
